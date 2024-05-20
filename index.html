@@ -11,32 +11,14 @@
 <body>
     <div class="container">
         <h1>Temperature Converter</h1>
-        <div class="input">
-            <input type="number" required num1>
-            <!-- <label for="unit">
-                <input type="radio" name="unit">Celcius
-                <input type="radio" name="unit">Fahrenheit
-            </label> -->
-            <select name="" id="">
-                <option value=""></option>
-                <option value="cel">Cel</option>
-                <option value="fer">Fer</option>
-            </select>
-        </div>
-
-
-        <div class="output">
-            <input type="number" required num2>
-            <select name="" id="">
-                <option value=""></option>
-                <option value="cel">Cel</option>
-                <option value="fer">Fer</option>
-            </select>
-        </div>
+        <input type="number" convert numb1>
 
         <div>
-            <button type="button">Convert</button>
+            <button type="button" CtF onclick="CtF()">Celcius to Fahrenheit</button>
+            <button type="button" FtC onclick="FtC()">Fahrenheit to Celcius</button>
         </div>
+
+        <input type="text" class="Display" readonly display>
 
     </div>
 
@@ -44,3 +26,60 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="input">
+    <input type="number" required>
+    <label for="unit">
+        <input type="radio" name="unit">Celcius
+        <input type="radio" name="unit">Fahrenheit
+    </label>
+    <select name="" id="" convert>
+        <option value="cel">Celcius to Fahrenheit</option>
+        <option value="fer">Fahrenheit to Celcius</option>
+    </select>
+</div>
+
+
+<div class="output">
+            <input type="number" required>
+    <select name="option" id="option" option>
+        <option value="cel">Cel</option>
+        <option value="fer">Fer</option>
+    </select>
+</div>
+
+<div>
+    <button type="button" convert>Convert</button>
+</div> -->
